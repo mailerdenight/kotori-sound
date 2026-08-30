@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00000010000000000000001 /* ことりサウンドApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000110000000000000001 /* ことりサウンドApp.swift */; };
+		A00000010000000000000007 /* CrossingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000110000000000000007 /* CrossingViewModel.swift */; };
+		A00000010000000000000009 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000110000000000000009 /* MainView.swift */; };
+		A0000001000000000000000D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0000011000000000000000D /* Assets.xcassets */; };
+		A00000010000000000000011 /* AdMobConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000110000000000000012 /* AdMobConfiguration.swift */; };
+		A00000010000000000000012 /* AdBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000110000000000000013 /* AdBannerView.swift */; };
+		A00000010000000000000013 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = A00000810000000000000001 /* GoogleMobileAds */; };
+		A00000010000000000000014 /* ProPurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000110000000000000014 /* ProPurchaseManager.swift */; };
+		A00000010000000000000015 /* BirdIllustrations in Resources */ = {isa = PBXBuildFile; fileRef = A00000110000000000000015 /* BirdIllustrations */; };
+		A00000010000000000000016 /* BirdProfiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000110000000000000016 /* BirdProfiles.swift */; };
+		A00000010000000000000017 /* BirdAudio in Resources */ = {isa = PBXBuildFile; fileRef = A00000110000000000000017 /* BirdAudio */; };
+		A00000010000000000000018 /* BirdAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000110000000000000018 /* BirdAudioPlayer.swift */; };
+		A00000010000000000000019 /* BirdAudioClip.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000110000000000000019 /* BirdAudioClip.swift */; };
+		A0000001000000000000001A /* BirdQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000011000000000000001A /* BirdQuizView.swift */; };
+		A0000001000000000000001B /* BirdPurchaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000011000000000000001B /* BirdPurchaseView.swift */; };
+		A0000001000000000000001C /* BirdQuizViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000011000000000000001C /* BirdQuizViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A00000100000000000000001 /* ことりサウンド.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ことりサウンド.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00000110000000000000001 /* ことりサウンドApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ことりサウンドApp.swift"; sourceTree = "<group>"; };
+		A00000110000000000000007 /* CrossingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossingViewModel.swift; sourceTree = "<group>"; };
+		A00000110000000000000009 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A0000011000000000000000D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A00000110000000000000011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00000110000000000000012 /* AdMobConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdMobConfiguration.swift; sourceTree = "<group>"; };
+		A00000110000000000000013 /* AdBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBannerView.swift; sourceTree = "<group>"; };
+		A00000110000000000000014 /* ProPurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProPurchaseManager.swift; sourceTree = "<group>"; };
+		A00000110000000000000015 /* BirdIllustrations */ = {isa = PBXFileReference; lastKnownFileType = folder; path = BirdIllustrations; sourceTree = "<group>"; };
+		A00000110000000000000016 /* BirdProfiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdProfiles.swift; sourceTree = "<group>"; };
+		A00000110000000000000017 /* BirdAudio */ = {isa = PBXFileReference; lastKnownFileType = folder; path = BirdAudio; sourceTree = "<group>"; };
+		A00000110000000000000018 /* BirdAudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdAudioPlayer.swift; sourceTree = "<group>"; };
+		A00000110000000000000019 /* BirdAudioClip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdAudioClip.swift; sourceTree = "<group>"; };
+		A0000011000000000000001A /* BirdQuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdQuizView.swift; sourceTree = "<group>"; };
+		A0000011000000000000001B /* BirdPurchaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdPurchaseView.swift; sourceTree = "<group>"; };
+		A0000011000000000000001C /* BirdQuizViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdQuizViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00000200000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000010000000000000013 /* GoogleMobileAds in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00000300000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A00000300000000000000002 /* ことりサウンド */,
+				A00000300000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00000300000000000000002 /* ことりサウンド */ = {
+			isa = PBXGroup;
+			children = (
+				A00000110000000000000001 /* ことりサウンドApp.swift */,
+				A00000110000000000000011 /* Info.plist */,
+				A0000011000000000000000D /* Assets.xcassets */,
+				A00000110000000000000015 /* BirdIllustrations */,
+				A00000110000000000000017 /* BirdAudio */,
+				A00000300000000000000005 /* Services */,
+				A00000300000000000000006 /* ViewModels */,
+				A00000300000000000000007 /* Views */,
+			);
+			path = "ことりサウンド";
+			sourceTree = "<group>";
+		};
+		A00000300000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00000100000000000000001 /* ことりサウンド.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A00000300000000000000005 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A00000110000000000000012 /* AdMobConfiguration.swift */,
+				A00000110000000000000018 /* BirdAudioPlayer.swift */,
+				A00000110000000000000014 /* ProPurchaseManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A00000300000000000000006 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A00000110000000000000016 /* BirdProfiles.swift */,
+				A00000110000000000000019 /* BirdAudioClip.swift */,
+				A0000011000000000000001C /* BirdQuizViewModel.swift */,
+				A00000110000000000000007 /* CrossingViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A00000300000000000000007 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A00000110000000000000013 /* AdBannerView.swift */,
+				A00000110000000000000009 /* MainView.swift */,
+				A0000011000000000000001A /* BirdQuizView.swift */,
+				A0000011000000000000001B /* BirdPurchaseView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00000400000000000000001 /* ことりサウンド */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00000600000000000000002 /* Build configuration list for PBXNativeTarget "ことりサウンド" */;
+			buildPhases = (
+				A00000210000000000000001 /* Sources */,
+				A00000200000000000000001 /* Frameworks */,
+				A00000220000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ことりサウンド";
+			packageProductDependencies = (
+				A00000810000000000000001 /* GoogleMobileAds */,
+			);
+			productName = "ことりサウンド";
+			productReference = A00000100000000000000001 /* ことりサウンド.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00000500000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					A00000400000000000000001 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+				};
+			};
+			buildConfigurationList = A00000600000000000000001 /* Build configuration list for PBXProject "ことりサウンド" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ja;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ja,
+			);
+			mainGroup = A00000300000000000000001;
+			packageReferences = (
+				A00000800000000000000001 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+			);
+			productRefGroup = A00000300000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00000400000000000000001 /* ことりサウンド */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00000220000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0000001000000000000000D /* Assets.xcassets in Resources */,
+				A00000010000000000000015 /* BirdIllustrations in Resources */,
+				A00000010000000000000017 /* BirdAudio in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00000210000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000010000000000000011 /* AdMobConfiguration.swift in Sources */,
+				A00000010000000000000012 /* AdBannerView.swift in Sources */,
+				A00000010000000000000016 /* BirdProfiles.swift in Sources */,
+				A00000010000000000000019 /* BirdAudioClip.swift in Sources */,
+				A0000001000000000000001C /* BirdQuizViewModel.swift in Sources */,
+				A00000010000000000000018 /* BirdAudioPlayer.swift in Sources */,
+				A0000001000000000000001A /* BirdQuizView.swift in Sources */,
+				A0000001000000000000001B /* BirdPurchaseView.swift in Sources */,
+				A00000010000000000000007 /* CrossingViewModel.swift in Sources */,
+				A00000010000000000000001 /* ことりサウンドApp.swift in Sources */,
+				A00000010000000000000009 /* MainView.swift in Sources */,
+				A00000010000000000000014 /* ProPurchaseManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A00000700000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3U97PCNG99;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A00000700000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3U97PCNG99;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A00000700000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3U97PCNG99;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ことりサウンド/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "ことりサウンド/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ac.kotorisounds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A00000700000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3U97PCNG99;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ことりサウンド/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "ことりサウンド/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ac.kotorisounds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00000600000000000000001 /* Build configuration list for PBXProject "ことりサウンド" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000700000000000000001 /* Debug */,
+				A00000700000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00000600000000000000002 /* Build configuration list for PBXNativeTarget "ことりサウンド" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000700000000000000003 /* Debug */,
+				A00000700000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A00000800000000000000001 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 13.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A00000810000000000000001 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A00000800000000000000001 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A00000500000000000000001 /* Project object */;
+}

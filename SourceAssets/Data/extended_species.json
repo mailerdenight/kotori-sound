@@ -1,0 +1,142 @@
+[
+  {
+    "slug": "blue_and_white_flycatcher",
+    "japanese": "オオルリ",
+    "scientific": "Cyanoptila cyanomelana",
+    "english": "Blue-and-white Flycatcher",
+    "group": "forest"
+  },
+  {
+    "slug": "carrion_crow",
+    "japanese": "ハシボソガラス",
+    "scientific": "Corvus corone",
+    "english": "Carrion Crow",
+    "group": "town"
+  },
+  {
+    "slug": "japanese_paradise_flycatcher",
+    "japanese": "サンコウチョウ",
+    "scientific": "Terpsiphone atrocaudata",
+    "english": "Japanese Paradise Flycatcher",
+    "group": "forest"
+  },
+  {
+    "slug": "azure_winged_magpie",
+    "japanese": "オナガ",
+    "scientific": "Cyanopica cyanus",
+    "english": "Azure-winged Magpie",
+    "group": "town"
+  },
+  {
+    "slug": "black_tailed_gull",
+    "japanese": "ウミネコ",
+    "scientific": "Larus crassirostris",
+    "english": "Black-tailed Gull",
+    "group": "water"
+  },
+  {
+    "slug": "black_kite",
+    "japanese": "トンビ",
+    "scientific": "Milvus migrans",
+    "english": "Black Kite",
+    "group": "raptor"
+  },
+  {
+    "slug": "eastern_crowned_warbler",
+    "japanese": "センダイムシクイ",
+    "scientific": "Phylloscopus coronatus",
+    "english": "Eastern Crowned Warbler",
+    "group": "forest"
+  },
+  {
+    "slug": "ijimas_leaf_warbler",
+    "japanese": "イイジマムシクイ",
+    "scientific": "Phylloscopus ijimae",
+    "english": "Ijima's Leaf Warbler",
+    "group": "island"
+  },
+  {
+    "slug": "narcissus_flycatcher",
+    "japanese": "キビタキ",
+    "scientific": "Ficedula narcissina",
+    "english": "Narcissus Flycatcher",
+    "group": "forest"
+  },
+  {
+    "slug": "willow_tit",
+    "japanese": "コガラ",
+    "scientific": "Poecile montanus",
+    "english": "Willow Tit",
+    "group": "forest"
+  },
+  {
+    "slug": "oriental_reed_warbler",
+    "japanese": "オオヨシキリ",
+    "scientific": "Acrocephalus orientalis",
+    "english": "Oriental Reed Warbler",
+    "group": "water"
+  },
+  {
+    "slug": "mosukes_wren",
+    "japanese": "モスケミソサザイ",
+    "scientific": "Troglodytes troglodytes mosukei",
+    "english": "Mosuke's Wren",
+    "group": "island"
+  },
+  {
+    "slug": "brown_hawk_owl",
+    "japanese": "アオバズク",
+    "scientific": "Ninox scutulata",
+    "english": "Brown Hawk-Owl",
+    "group": "raptor"
+  },
+  {
+    "slug": "eurasian_skylark",
+    "japanese": "ヒバリ",
+    "scientific": "Alauda arvensis",
+    "english": "Eurasian Skylark",
+    "group": "field"
+  },
+  {
+    "slug": "ruddy_kingfisher",
+    "japanese": "アカショウビン",
+    "scientific": "Halcyon coromanda",
+    "english": "Ruddy Kingfisher",
+    "group": "forest"
+  },
+  {
+    "slug": "golden_eagle",
+    "japanese": "ワシ",
+    "scientific": "Aquila chrysaetos",
+    "english": "Golden Eagle",
+    "group": "raptor"
+  },
+  {
+    "slug": "indian_peafowl",
+    "japanese": "インドクジャク",
+    "scientific": "Pavo cristatus",
+    "english": "Indian Peafowl",
+    "group": "world"
+  },
+  {
+    "slug": "southern_screamer",
+    "japanese": "カンムリサケビドリ",
+    "scientific": "Chauna torquata",
+    "english": "Southern Screamer",
+    "group": "world"
+  },
+  {
+    "slug": "eastern_spot_billed_duck",
+    "japanese": "カモ",
+    "scientific": "Anas zonorhyncha",
+    "english": "Eastern Spot-billed Duck",
+    "group": "water"
+  },
+  {
+    "slug": "chinese_hwamei",
+    "japanese": "ガビチョウ",
+    "scientific": "Garrulax canorus",
+    "english": "Chinese Hwamei",
+    "group": "introduced"
+  }
+]

@@ -1,0 +1,9 @@
+.DS_Store
+.build/
+tmp/
+*.xcuserstate
+xcuserdata/
+
+# Local secrets and machine-specific configuration
+Config/AdMob.xcconfig
+*.local.xcconfig
