@@ -18,11 +18,19 @@ App StoreへアップロードしたiPhoneアプリのXcodeプロジェクトで
 
 ## Google AdMob
 
-現在はGoogle AdMobのテスト用アプリID・バナー広告ユニットIDで動作確認できる状態です。
-本番公開前に、`ことりサウンド/Info.plist` の次の3項目をAdMob管理画面の値へ置き換えてください。
+`ことりサウンド/Info.plist` には、本番用のAdMobアプリIDとバナー広告ユニットIDを設定済みです。
+本番公開時は、AdMob管理画面で次を確認してください。
 
 - `GADApplicationIdentifier`
 - `AdMobProductionBannerAdUnitID`
-- `AdMobTestBannerAdUnitID`
+- `SKAdNetworkItems`
 
-テスト用IDは開発・審査確認用として残し、本番広告では使用しないでください。
+`AdMobTestBannerAdUnitID` はGoogleのテスト用IDのまま残します。DebugビルドではテストID、Releaseビルドでは本番IDを使う切り替えになっています。
+AdMobの本番IDはパスワードではありませんが、実際のAdMobアカウントとバンドルIDの紐付きを公開前に確認してください。
+
+## App Store提出前
+
+- App Store ConnectのプライバシーポリシーURLに、別リポジトリで公開しているGitHub Pagesのページを登録する
+- App Privacyで、Google Mobile Ads SDKが扱うデータ（デバイスID、広告データ、製品インタラクション、診断・パフォーマンス情報など）を実際の設定に合わせて申告する
+- アプリ内課金商品 `com.ac.kotorisounds.pro` をApp Store Connectで作成し、価格・審査情報を設定する
+- TestFlightで同意画面、広告、購入、購入復元、音声再生を実機確認する

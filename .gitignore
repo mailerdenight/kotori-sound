@@ -7,3 +7,6 @@ xcuserdata/
 # Local secrets and machine-specific configuration
 Config/AdMob.xcconfig
 *.local.xcconfig
+
+# Privacy policy is maintained and published as a separate Git repository.
+kotori-sound-privacy/
